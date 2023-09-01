@@ -1,0 +1,51 @@
+.grid{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px groove black;
+    overflow: hidden;
+}
+
+.mainGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    font-size: x-large;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    /* width: 30%; */
+}
+
+body{
+ background:rgba(128, 128, 128, 0.547);   
+}
+
+.grid div{
+    width: 50px;
+    height: 50px;
+}
+
+.snake{
+    background-color: blue;
+}
+
+.apple{
+    background-color: purple;
+}
+
+button{
+    height: 3rem;
+    width: 1/6;
+    color: #fff;
+    border-radius: 1rem;
+    font-size: x-large;
+}
